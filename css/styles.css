@@ -262,7 +262,7 @@ img {
     width: calc((100% - 72px) / 4);
 }
 .team-list-text-content{
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 .team-list-item{
     background-color: var(--white-color);
@@ -347,7 +347,10 @@ img {
 .footer-container{
     display: flex;
     align-items: baseline;
-    gap: 120px;
+    /* gap: 120px; */
+}
+.footer-container-logo{
+    margin-right: 120px;
 }
 .footer{
     background-color: var(--secondary-text-color);
@@ -372,6 +375,9 @@ img {
     letter-spacing: var(--letter-spacing);
     color: var(--white-color);
     margin-bottom: 16px;
+}
+.footer-sosial-list{
+    gap:16px;
 }
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
